@@ -1,0 +1,10 @@
+P2_gg_ttxg_t_lvlb_tx_qqbx
+P2_gq_ttxq_t_lvlb_tx_qqbx
+P2_qq_ttxg_t_lvlb_tx_qqbx
+P3_gg_ttxg_t_qqb_tx_lvlbx
+P3_gq_ttxq_t_qqb_tx_lvlbx
+P3_qq_ttxg_t_qqb_tx_lvlbx
+P0_gg_ttx_t_lvlb_tx_qqbx
+P0_qq_ttx_t_lvlb_tx_qqbx
+P1_gg_ttx_t_qqb_tx_lvlbx
+P1_qq_ttx_t_qqb_tx_lvlbx

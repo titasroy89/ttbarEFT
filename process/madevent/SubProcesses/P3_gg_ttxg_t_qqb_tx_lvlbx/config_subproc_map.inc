@@ -1,0 +1,15 @@
+      DATA (CONFSUB(I,1),I=1,1)/1/
+      DATA (CONFSUB(I,2),I=1,1)/12/
+      DATA (CONFSUB(I,3),I=1,1)/25/
+      DATA (CONFSUB(I,4),I=1,1)/40/
+      DATA (CONFSUB(I,5),I=1,1)/55/
+      DATA (CONFSUB(I,6),I=1,1)/68/
+      DATA (CONFSUB(I,7),I=1,1)/85/
+      DATA (CONFSUB(I,8),I=1,1)/100/
+      DATA (CONFSUB(I,9),I=1,1)/113/
+      DATA (CONFSUB(I,10),I=1,1)/130/
+      DATA (CONFSUB(I,11),I=1,1)/143/
+      DATA (CONFSUB(I,12),I=1,1)/156/
+      DATA (CONFSUB(I,13),I=1,1)/169/
+      DATA (CONFSUB(I,14),I=1,1)/184/
+      DATA (CONFSUB(I,15),I=1,1)/199/

@@ -1,0 +1,43 @@
+#************************************************************
+#*                     MadGraph5_aMC@NLO                    *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 2.6.5                 2018-02-03         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph5_aMC@NLO         *
+#*                                                          *
+#*     run as ./bin/mg5_aMC  filename                       *
+#*                                                          *
+#************************************************************
+set default_unset_couplings 99
+set ignore_six_quark_processes False
+set loop_optimized_output True
+set loop_color_flows False
+set gauge unitary
+set complex_mass_scheme False
+set max_npoint_for_channel 0
+define j = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+set group_subprocesses False
+generate p p > t t~, t > l+ vl b, t~ > had had b~      @0  NPprop=0 SM\
+HLOOP=0 NP=1
+add process p p > t t~, t > had had b, t~ > l- vl~ b~ @1 NPprop=0 SMHL\
+OOP=0 NP=1
+add process p p > t t~ j, t > l+ vl b, t~ > had had b~ @2 NPprop=0 SMH\
+LOOP=0 NP=1
+add process p p > t t~ j, t > had had b, t~ > l- vl~ b~ @3 NPprop=0 SM\
+HLOOP=0 NP=1
+output standalone_rw /home/schoef/genproductions_mg265UL/bin/MadGraph5\
+_aMCatNLO/TT01j1l_HT800/TT01j1l_HT800_gridpack/work/process/madevent/r\
+wgt/rw_me --prefix=int

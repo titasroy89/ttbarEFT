@@ -1,0 +1,12 @@
+*.root
+*.tar.xz
+*.tgz
+gridpack_production/correct_scripts
+*.png
+plots/
+root_files/
+scripts_plots_new_samples/compare_weighted_nominal
+scripts_plots_new_samples/plots_allfiles_motherpdgempty
+scripts_plots_new_samples/plots_correct
+scripts_plots_new_samples/b-quark-test
+scripts_plots_new_samples/100
